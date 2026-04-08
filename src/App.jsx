@@ -7,10 +7,10 @@ import MobileView from "./MobileView";
 import DesktopView from "./DesktopView";
 
 function App() {
-  const APP_ID = process.env.REACT_APP_APP_ID;
-  const USER_ID = process.env.REACT_APP_USER_ID;
-  const NICKNAME = process.env.REACT_APP_NICKNAME;
-  const ACCESS_TOKEN = process.env.REACT_APP_ACCESS_TOKEN;
+  const APP_ID = import.meta.env.VITE_APP_ID;
+  const USER_ID = import.meta.env.VITE_USER_ID;
+  const NICKNAME = import.meta.env.VITE_NICKNAME;
+  const ACCESS_TOKEN = import.meta.env.VITE_ACCESS_TOKEN;
   const myColorSet = {
     "--sendbird-light-primary-100": "rgb(195, 241, 169)",
     "--sendbird-light-primary-300": "rgb(165, 211, 149)",
