@@ -1,0 +1,32 @@
+npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+
+added 176 packages, and audited 177 packages in 9s
+
+32 packages are looking for funding
+  run `npm fund` for details
+
+1 critical severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+added 2 packages, removed 7 packages, changed 9 packages, and audited 172 packages in 6s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+vitest  <4.1.0
+Severity: critical
+When Vitest UI server is listening, arbitrary file can be read and executed - https://github.com/advisories/GHSA-5xrq-8626-4rwp
+fix available via `npm audit fix --force`
+Will install vitest@4.1.8, which is a breaking change
+node_modules/vitest
+
+1 critical severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
